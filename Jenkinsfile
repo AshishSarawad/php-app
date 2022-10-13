@@ -12,7 +12,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'php /var/lib/jenkins/workspace/php-app/php-app/hello.php'
+        sh 'php hello.php'
       }
     }
   }
